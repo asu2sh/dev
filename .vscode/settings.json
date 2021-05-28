@@ -1,5 +1,6 @@
 {
     "files.autoSave": "afterDelay",
-    "editor.fontSize": 16,
-    "editor.fontFamily": "Fira Code"
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 16
 }
