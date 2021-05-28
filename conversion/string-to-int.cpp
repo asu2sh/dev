@@ -3,7 +3,7 @@
 
 int main() {
 
-    std::string str = "123";
+    std::string str = "420";
     int num;
 
     num = std::stoi(str);
