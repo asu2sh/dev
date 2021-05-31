@@ -8,7 +8,7 @@ int main() {
     
     std::string str = std::to_string(num);
 
-    std::cout << str;
+    std::cout << str << std::endl;
 
     return 0;
 }

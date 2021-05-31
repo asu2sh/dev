@@ -9,7 +9,7 @@ int main() {
     // using stoi() to store the value of str1 to x
     num = std::stoi(str);
 
-    std::cout << num;
+    std::cout << num << std::endl;
 
     return 0;
 }

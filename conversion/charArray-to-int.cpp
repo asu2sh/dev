@@ -9,7 +9,7 @@ int main()
 
     int num = std::atoi(str);
 
-    std::cout << "num = " << num;
+    std::cout << "num = " << num << std::endl;
 
     return 0;
 
