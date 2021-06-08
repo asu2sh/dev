@@ -32,6 +32,10 @@ void display(char c, int count) {
 
 /*
 
+Once we provide a default value for a parameter,
+all subsequent parameters must also have default values.
+For example,
+cl
 //Invalid
 void add(int a, int b = 3, int c, int d);
 
