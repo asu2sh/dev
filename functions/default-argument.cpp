@@ -29,3 +29,16 @@ void display(char c, int count) {
     }
     cout << endl;
 }
+
+/*
+
+//Invalid
+void add(int a, int b = 3, int c, int d);
+
+// Invalid
+void add(int a, int b = 3, int c, int d = 4);
+
+// Valid
+void add(int a, int c, int b = 3, int d = 4);
+
+*/
