@@ -16,13 +16,17 @@ int main()
     return 0;
 }
 
+/*
+you cannot return local variable or constant
+from this function as it doesnt return a value.
+*/
+
 int& test()
 {
     return num;
 }
 
 /*
-
 In program above, the return type of function test() is int&.
 Hence, this function returns a reference of the variable num.
 
@@ -35,5 +39,4 @@ it can be assigned a value as done in test() = 5;
 
 This stores 5 to the variable num,
 which is displayed onto the screen.
-
 */
