@@ -8,14 +8,17 @@ int main(){
     //int *p = new int(1025);
 
     std::cout << "Size of int = " << sizeof(int) << std::endl;
-    std::cout << "Address = " << p << "\nValue = " << *p << std::endl;
+    std::cout << "Address of a = " << p << "\nValue of a = " << *p << std::endl;
+    std::cout << "Address of a+1 = " << p+1 << "\nValue of a+1= " << *p+1 << std::endl;
+    std::cout << "\n";
 
     char *p0;
     p0 = (char*)p;
     //char *p0 = reinterpret_cast <char *>(p);
     std::cout << "Size of char = " << sizeof(char) << std::endl;
 
-    std::cout << "Address = " << (int*)p0 << "\nValue = " << (int)*p0 << std::endl;
+    std::cout << "Address of p0 = " << (int*)p0 << "\nValue of p0 = " << (int)*p0 << std::endl;
+    std::cout << "Address of p0+1 = " << (int*)p0+1 << "\nValue of p0+1 = " << (int)*p0+1 << std::endl;
 
     //*1025 = 00000000 0000000 00000100 000000001
 
