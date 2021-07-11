@@ -18,9 +18,9 @@ int main(){
     std::cout << "Size of char = " << sizeof(char) << std::endl;
 
     std::cout << "Address of p0 = " << (int*)p0 << "\nValue of p0 = " << (int)*p0 << std::endl;
-    std::cout << "Address of p0+1 = " << (int*)p0+1 << "\nValue of p0+1 = " << (int)*p0+1 << std::endl;
+    std::cout << "Address of p0+1 = " << (int*)(p0+1) << "\nValue of p0+1 = " << (int)*(p0+1) << std::endl;
 
-    //*1025 = 00000000 0000000 00000100 000000001
+    //*1025 = 00000000 00000000 00000100 00000001
 
 }
 
