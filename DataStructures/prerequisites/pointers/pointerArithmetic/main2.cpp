@@ -2,7 +2,7 @@
 
 int main(){
 
-    int a = 65;
+    int a = 1025;
     int *p;
     p = &a;
     //int *p = new int(1025);
@@ -14,8 +14,10 @@ int main(){
     p0 = (char*)p;
     //char *p0 = reinterpret_cast <char *>(p);
     std::cout << "Size of char = " << sizeof(char) << std::endl;
-    
+
     std::cout << "Address = " << (int*)p0 << "\nValue = " << (int)*p0 << std::endl;
+
+    //*1025 = 00000000 0000000 00000100 000000001
 
 }
 
