@@ -9,7 +9,7 @@ int main(){
 
     std::cout << "Size of int = " << sizeof(int) << std::endl;
     std::cout << "Address of a = " << p << "\nValue of a = " << *p << std::endl;
-    std::cout << "Address of a+1 = " << p+1 << "\nValue of a+1= " << *p+1 << std::endl;
+    std::cout << "Address of a+1 = " << p+1 << "\nValue of a+1= " << *(p+1) << std::endl;
     std::cout << "\n";
 
     char *p0;
