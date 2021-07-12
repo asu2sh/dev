@@ -1,0 +1,8 @@
+# Character arrays and pointers
+
+--> Strings: group or set of characters
+
+# How to store Strings in Character arrays
+--> size of array >= no. of characters in string + 1 
+
+
