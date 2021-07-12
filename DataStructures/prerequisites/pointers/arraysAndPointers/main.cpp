@@ -4,8 +4,8 @@ int main(){
 
     int A[5] = {4, 3, 9, 5, 2};
 
-    int *p = A;
-    //int *p = &A[0];
+    int* p = A;
+    //int* p = &A[0];
 
     std::cout << A << "\n" 
               << *A << "\n"
