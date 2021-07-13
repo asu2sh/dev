@@ -4,5 +4,22 @@
 
 # How to store Strings in Character arrays
 --> size of array >= no. of characters in string + 1 
+    --> it must be null terminated. '\0', so that compiler knows it is the end of the string.
+    --> NULL termination is implicit if we use string literal...
 
 
+
+*C++ program to read and display an entire line entered by user.*
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char str[100];
+    cout << "Enter a string: ";
+
+    !cin.get(str, 100);!
+
+    cout << "You entered: " << str << endl;
+    return 0;
+}
