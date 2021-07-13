@@ -1,15 +1,15 @@
-# Character arrays and pointers
+! Character arrays and pointers
 
 --> Strings: group or set of characters
 
-# How to store Strings in Character arrays
+==>How to store Strings in Character arrays
 --> size of array >= no. of characters in string + 1 
     --> it must be null terminated. '\0', so that compiler knows it is the end of the string.
     --> NULL termination is implicit if we use string literal...
 
 
 
-*C++ program to read and display an entire line entered by user.*
+!C++ program to read and display an entire line entered by user.
 #include <iostream>
 using namespace std;
 
