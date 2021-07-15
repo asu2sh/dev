@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-void display(int x[][3][2]){		// only first space can be vacant...why idk.
+void display(int x[][3][2]){		// only first space can be vacant...why?? idk!!
 
 	// output each element's value
 	for (int i = 0; i < 2; ++i)
