@@ -1,21 +1,20 @@
 #include <iostream>
-#include <array>
 
 int main() {
   
-    int numArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-  
-    for (auto n : numArray) {
+    int numArray[] = {1, 2, 3, 4, 5};
+
+    for (const int &n : numArray) { 
+// if we are not modifying the array/vector/collection within the loop,
+// it is better to use the const keyword in range declaration.
         std::cout << n << " ";
     }
     std::cout << '\n';
-
-    // Syntax:
-    //for (variable : collection) {
-    // // body of loop
-    // }
-    // Here, for every value in the collection,
-    // the for loop is executed and the value is assigned to the variable.
-
+  
     return 0;
 }
+
+// (int var : num) --> copies each element of num to var variable in each iteration.
+//                 --> not good for computer memory.
+// (int &var : num) --> Does not copy each element of num to var, instead
+//                  --> access the elements of num from num itself. === more efficient.
