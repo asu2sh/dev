@@ -1,16 +1,9 @@
 // C++ program to print elements of Three-Dimensional
-// Array
+
 #include<iostream>
 using namespace std;
 
-int main()
-{
-	// initializing the 3-dimensional array
-	int x[2][3][2] =
-	{
-		{ {0,1}, {2,3}, {4,5} },
-		{ {6,7}, {8,9}, {10,11} }
-	};
+void display(int x[][3][2]){		// only first space can be vacant...why idk.
 
 	// output each element's value
 	for (int i = 0; i < 2; ++i)
@@ -25,5 +18,18 @@ int main()
 			}
 		}
 	}
+}
+
+int main()
+{
+	// initializing the 3-dimensional array
+	int x[2][3][2] =
+	{
+		{ {0,1}, {2,3}, {4,5} },
+		{ {6,7}, {8,9}, {10,11} }
+	};
+
+	display(x);
+
 	return 0;
 }
