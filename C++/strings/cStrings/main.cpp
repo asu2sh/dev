@@ -6,7 +6,7 @@ int main(){
 
     std::cout << "Enter your Name : " << std::endl;
 
-    std::cin.get(str, 10);     
+    std::cin.getline(str, 10);   //! don't use cin.get() use cin.getline() instead  
     // takes two arguments, 1st: name of the string i.e. address of the first element of the string.
     // 2nd: size of the array 
     // or the no. of characters you want to print, one space for NULL character.
