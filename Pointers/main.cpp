@@ -4,7 +4,7 @@ int main(){
 
     int a = 5;
 
-    int *p = &a;
+    int* p = &a; // declaring pointers : int *p vs int* p --> preferred syntax.
     //int *p;
     //p = &a;
 
