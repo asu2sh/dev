@@ -1,0 +1,25 @@
+# Void Pointers :
+
+--> The void pointer is a generic pointer that is used
+    when we don't know the data type of the variable that the pointer points to.
+
+// void pointer
+void *ptr;
+
+double d = 9.0;
+
+// valid code
+ptr = &d;
+
+--> As void is an empty type, void pointers cannot be dereferenced.
+
+--> Void pointers cannot be used to store addresses of variables with const or volatile qualifiers.
+void *ptr;
+const double d = 9.0;
+
+// Error: invalid conversion from const void* to void*
+ptr = &d;
+
+* static cast *
+
+--> syntax: static_cast<varType>(var);
