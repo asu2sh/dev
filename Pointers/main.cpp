@@ -11,7 +11,7 @@ int main(){
     std::cout <<"a = "<< a << std::endl;
     std::cout <<"p = "<< p << "\n" << std::endl;
 
-    //! endl doesn't occupy any memory whereas \n is character so It occupy 1 byte memory.
+    //! endl doesn't occupy any memory whereas \n is character so It occupies 1 byte memory.
 
     std::cout <<"&a = "<< &a << std::endl;
     std::cout <<"&p = "<< &p << "\n" << std::endl;
