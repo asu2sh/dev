@@ -28,6 +28,7 @@ int main(){
 
     Wall wall1(l, h);
     Wall wall2(23, 56);
+
     
     std::cout << "Area of wall 1: "<< wall1.calculateArea() << std::endl;
     std::cout << "Area of wall 2: "<< wall2.calculateArea() << std::endl;
