@@ -1,0 +1,28 @@
+# Operator Overloading
+
+We can change the way operators work for user-defined types like objects and structures.
+this is known as operator overloading.
+
+-> Syntax:
+   class className {
+      ......
+      public
+         returnType operator symbol (arguments) { 
+         ......
+      } 
+      ......
+   };
+
+-> returnType is the return type of the function.
+-> operator is a keyword.
+-> symbol is the operator we want to overload. Like: +, <, -, ++, etc.
+-> arguments is the arguments passed to the function.
+
+# Things to Remember in C++ Operator Overloading
+Two operators = and & are already overloaded by default in C++. For example, to copy objects of the same class, we can directly use the = operator. We do not need to create an operator function.
+Operator overloading cannot change the precedence and associativity of operators. However, if we want to change the order of evaluation, parentheses should be used.
+There are 4 operators that cannot be overloaded in C++. They are:
+:: (scope resolution)
+. (member selection)
+.* (member selection through pointer to function)
+?: (ternary operator)
