@@ -1,3 +1,0 @@
-        // void operator ++ (int){
-        //     ++value;
-        // }
