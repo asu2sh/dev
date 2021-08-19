@@ -37,7 +37,7 @@ int main() {
         
         // Step 1 is to double every second digit, starting from the right. If it
         // results in a two digit number, add both the digits to obtain a single
-        // digit number. Finally, sum all the answers to obtain 'doubleEvenSum'.   
+        // digit number. Finally, sum all the answers to obtain 'doubleEvenSum'.  
         
         for (int i = len - 2; i >= 0; i = i - 2) {
             int dbl = ((ccNumber[i] - 48) * 2);
