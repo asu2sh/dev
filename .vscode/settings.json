@@ -49,11 +49,13 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "ctime": "cpp"
+        "ctime": "cpp",
+        "set": "cpp"
     },
     "cSpell.words": [
         "cout",
         "endl",
-        "iostream"
+        "iostream",
+        "shubham"
     ]
 }
