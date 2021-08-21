@@ -50,5 +50,10 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "ctime": "cpp"
-    }
+    },
+    "cSpell.words": [
+        "cout",
+        "endl",
+        "iostream"
+    ]
 }
