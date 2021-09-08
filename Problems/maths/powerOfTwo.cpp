@@ -1,7 +1,9 @@
 #include <iostream>
+#include <cmath>
 
 bool checkPower(int n){
 
+    
     
 
 }
