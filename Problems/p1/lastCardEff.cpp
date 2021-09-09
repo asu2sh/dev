@@ -1,4 +1,4 @@
-// Q.> We have a stack of n number of cards, each card numbered 1 to n from top so the first card is card 1
+// Q> We have a stack of n number of cards, each card numbered 1 to n from top so the first card is card 1
 // & the last card is card n. Let’s say we throw away the first card & then move the 2nd card to the 
 // last. Let’s keep doing this until we are just left with one card. Check image 1.
 // So, for example if n is 3 then the cards would be 1,2,3 so for first iteration we would throw away 1 
