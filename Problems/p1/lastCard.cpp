@@ -16,6 +16,7 @@ void lastCard(int n){
     // return card.back();
     for(const int &i: card)
         std::cout << i << std::endl;
+        
     std::cout << "Iterations: " << count << std::endl;
 }
 
