@@ -1,6 +1,6 @@
-// Q> We have a stack of n number of cards, each card numbered 1 to n from top so the first card is card 1
+// Q. We have a stack of n number of cards, each card numbered 1 to n from top so the first card is card 1
 // & the last card is card n. Let’s say we throw away the first card & then move the 2nd card to the 
-// last. Let’s keep doing this until we are just left with one card. Check image 1.
+// last. Let’s keep doing this until we are just left with one card.
 // So, for example if n is 3 then the cards would be 1,2,3 so for first iteration we would throw away 1 
 // & move 2 to the bottom so now the stack would become 3,2. On 2nd iteration we throw away 3 & 
 // we are left with only one card '2'.
@@ -20,7 +20,7 @@ void lastCard(int n){
     result = gNum - ((gNum - n)*2);
     
     // return result;
-    std::cout << result << " Iteration: " << count << std::endl;
+    std::cout << result << "\nIteration: " << count << std::endl;
 }
 
 int main(){

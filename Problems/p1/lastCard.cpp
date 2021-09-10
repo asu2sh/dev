@@ -13,11 +13,12 @@ void lastCard(int n){
         card.push_back(card[i]);
         count++;    
     }
-    // return card.back();
-    for(const int &i: card)
-        std::cout << i << std::endl;
-        
-    std::cout << "Iterations: " << count << std::endl;
+
+    // for(const int &i: card)
+    //     std::cout << i << std::endl;
+
+    std::cout << card.back() << "\nIterations: " << count << std::endl;
+    
 }
 
 int main(){
