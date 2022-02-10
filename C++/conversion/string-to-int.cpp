@@ -3,7 +3,7 @@
 
 int main() {
 
-    std::string str = "420xxx";
+    std::string str = "42013";
     int num;
 
     // using stoi() to store the value of str1 to x
