@@ -14,6 +14,6 @@ int main(){
         std::cin >> ch;
 
         ch == 'F' ? std::cout << "Mr. " << str << " ,RESPECT for you." << std::endl
-                  : std::cout << "F YOU " << str << " xxx. xxx. xxx." << std::endl;
+                  : std::cout << "F YOU " << str << " beep* beep* beep*" << std::endl;
 
 }
