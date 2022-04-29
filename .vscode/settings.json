@@ -1,10 +1,10 @@
 {
     "files.autoSave": "afterDelay",
     "editor.fontSize": 16,
-    "editor.fontFamily": "FiraCode NF",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontFamily": "FiraCode NF",
+    "terminal.integrated.fontFamily": "monospace",
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
