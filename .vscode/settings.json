@@ -3,7 +3,7 @@
     "editor.fontSize": 16,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "Fira Code",
     "files.associations": {
         "array": "cpp",
