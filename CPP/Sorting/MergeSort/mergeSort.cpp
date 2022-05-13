@@ -12,7 +12,7 @@ void merge(int arr[], int l, int m, int r){
     for(int i=0; i<n2; i++)
         right[i] = arr[m+1+i];
 
-    int i=0, j=0, k=l;
+    int i=0, j=0, k=l;  
 
     while(i<n1 && j<n2){
         if(left[i] <= right[j]){
