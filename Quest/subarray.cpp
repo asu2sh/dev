@@ -1,10 +1,12 @@
+// Lalchi Algorithm = bharsoe ke layak ni h
+
 #include <iostream>
 #include <vector>
 
 int main(){
 
 
-    std::vector<int> arr = {-2, -3, 4, -1, -2, 1, 5, -3};
+    std::vector<int> arr = {-2, -3, -4, -1, -2, -1, -5, -3};
 
     int sum = 0;
     int maxSum = arr[0];
@@ -18,14 +20,13 @@ int main(){
 
         if(maxSum < sum){
             maxSum = sum;
-            // start = s;
+            start = s;
             end = i;
         }
 
         if(sum < 0){
             sum = 0;
-            // s = i+1;
-            start = i+1;
+            s = i+1;
         }
     }
 
