@@ -5,9 +5,10 @@
 
 int main(){
 
-    std::vector<int> arr = {-2, -3, -4, -1, -2, -5, -1};
+    // std::vector<int> arr = {-2, -3, -4, -1, -2, -5, -1};
+    std::vector<int> arr = {5,4,-1,7,8};
 
-    int maxSum = arr[0];
+    int maxSum = 0;     // initialise maxSum = 0 or INT_MIN else it will be doubled 
     int res = arr[0];
 
     int start=0, end=0, s=0;
