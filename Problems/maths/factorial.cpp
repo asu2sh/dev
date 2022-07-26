@@ -3,7 +3,7 @@
 int factNum(int n){
 
     int fNum = 1;
-    while(n != 0){
+    while(n > 0){
         fNum = fNum * n;
         n--;
     }
