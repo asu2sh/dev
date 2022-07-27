@@ -33,27 +33,13 @@ int main(){
 //     return res;
 // }
 
+    // int n1 = std::min(a, b);
+    // int n2 = std::max(a, b);
+    // int temp = 2, res;
 
-//* Super Naive: coz of the fact===the LCM would be greater than or equal to the larger number
-// int lcm(int a, int b){
+    // do{
+    //     res = n2 * temp;
+    //     temp++;   
+    // }while(res % n1 != 0);
 
-//     int res = std::min(a,b);
-//     int temp = res;
-    
-//     if(res%a==0 && res%b==0)
-//         return res;
-//     else{
-//         if(res%a==0){
-//             do{
-//             res+=temp;
-//             }while(res%b!=0);
-//         return res;
-//         }
-//         else{
-//             do{
-//             res+=temp;
-//             }while(res%a!=0);
-//         return res;
-//         }
-//     }
-// }
+    // return res;
