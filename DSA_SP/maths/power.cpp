@@ -41,7 +41,7 @@ int main(){
 // }
 
 
-//* Naive Approach: O(n)
+//? Naive Approach: O(n)
 // int power(int a, int b){
 
 //     int res = 1;    // this step is essential for b=0
@@ -52,3 +52,30 @@ int main(){
 //     return res;
 // }
 
+
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// x = 3;
+// n = 5;
+// x ^ n
+
+// int res = 1;
+
+// while(n>0){                             
+//     if(n%2!=0){       1
+//         //bit is 1
+//         res = x * res;      3*81
+
+//     }
+//     // else
+//     //     //bit is 0
+
+//     x = x * x;    81*81
+    
+//     n = n/2;    0
+// }
+
+// 6 =    0    1      1     0
+// 5 =  2^4    2^2    2^1   2^0
+//       0      1      0     1
+//      3^8    3^4    3^2   3^1
