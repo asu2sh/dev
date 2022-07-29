@@ -3,12 +3,14 @@
 
 void sieve(int n){
 
+    if(n<2) std::cout << "NA" << std::endl;
+    
     std::vector<bool> arr(n+1, true);
 
     for(int i=2; i<=n; i++){
         if(arr[i]){
             std::cout << i << " ";
-            for(int j=2; j<=n; j++)
+            for(int j=2; i*j<=n; j++)
                 arr[i*j] = false;
         }
     }
