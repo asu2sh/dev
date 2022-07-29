@@ -53,20 +53,10 @@
         "ctime": "cpp",
         "set": "cpp"
     },
-    "cSpell.words": [
-        "cout",
-        "endl",
-        "iostream",
-        "shubham",
-        "stoi"
-    ],
-    "azureFunctions.deploySubpath": "az-fn",
-    "azureFunctions.scmDoBuildDuringDeployment": true,
-    "azureFunctions.pythonVenv": ".venv",
-    "azureFunctions.projectLanguage": "Python",
-    "azureFunctions.projectRuntime": "~4",
+    
     "debug.internalConsoleOptions": "neverOpen",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "code-runner.saveFileBeforeRun": true,
-    "code-runner.runInTerminal": true
+    "code-runner.runInTerminal": true,
+    "C_Cpp.default.compilerPath": ""
 }
