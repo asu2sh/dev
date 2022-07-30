@@ -8,7 +8,7 @@ void twoOddOccuring(std::vector<int> arr, int n){
     for(int i=0; i<n; i++)  
         XOR = XOR ^ arr[i];
 
-    int value = XOR & ~(XOR-1);     // value stands for Right Most Bit Value
+    int value = XOR & ~(XOR-1);     // value stands for Right Most Set Bit Value
 
     for(int i=0; i<n; i++){
         
