@@ -8,7 +8,7 @@ void toh(int n, char A, char B, char C){
     }
 
     toh(n-1, A, C, B);
-    std::cout << n << ": " << A << "-->" << B << std::endl;
+    std::cout << n << ": " << A << "-->" << C << std::endl;
     toh(n-1, B, A, C);
 }
 
