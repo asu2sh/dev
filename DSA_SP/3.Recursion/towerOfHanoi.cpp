@@ -19,3 +19,6 @@ int main(){
 
     toh(n, 'A', 'B', 'C');
 }
+
+// to count the steps we can simply return
+//*         pow(2, n) - 1;
