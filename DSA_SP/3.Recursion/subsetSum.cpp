@@ -9,6 +9,17 @@
 //     return subsetSum(arr, n-1, sum) + subsetSum(arr, n-1, sum-arr[n-1]);
 // }
 
+/**
+ * It takes an array of integers, a target sum, a sum, and a count. It returns the number of subsets of
+ * the array that sum to the target sum
+ * 
+ * @param arr the array of integers
+ * @param targetSum the sum of the subset we're looking for
+ * @param sum the sum of the current subset
+ * @param count the number of subsets that add up to the target sum
+ * 
+ * @return The number of subsets that add up to the target sum.
+ */
 int subsetSum(std::vector<int> arr, int targetSum, int sum, int& count){
 
     if(arr.size()==0){

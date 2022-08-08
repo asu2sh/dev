@@ -1,3 +1,15 @@
+/**
+ * If the number of pieces is 0, return 0. If the number of pieces is negative, return -1. Otherwise,
+ * return the maximum of the number of pieces that can be made from the number of pieces minus the
+ * length of each of the three rods, plus 1
+ * 
+ * @param n the length of the rod
+ * @param a length of the first piece
+ * @param b length of the second piece
+ * @param c length of the third piece
+ * 
+ * @return The maximum number of pieces that can be cut from a rod of length n.
+ */
 #include <iostream>
 #include <algorithm>
 

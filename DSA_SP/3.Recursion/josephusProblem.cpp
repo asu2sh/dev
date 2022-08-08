@@ -1,6 +1,16 @@
 #include <iostream>
 #include <vector>
 
+/**
+ * The function takes in an array, a number k, and an index, and returns the value of the last element
+ * in the array after k elements have been removed from the array, starting at the index
+ * 
+ * @param arr The array of people
+ * @param k the step size
+ * @param index the index of the person who is going to be killed
+ * 
+ * @return The last person standing.
+ */
 int josephus(std::vector<int> arr, int k, int index){
 
     if(arr.size()==1)

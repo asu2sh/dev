@@ -1,3 +1,12 @@
+/**
+ * The function takes the last element of the array and recursively sorts the remaining array. Then, it
+ * inserts the last element at its correct position in the sorted array
+ * 
+ * @param arr The array to be sorted
+ * @param temp The element to be inserted
+ * 
+ * @return The sorted array.
+ */
 #include <iostream>
 #include <vector>
 

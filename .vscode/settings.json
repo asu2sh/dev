@@ -58,5 +58,6 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
-    "C_Cpp.default.compilerPath": ""
+    "C_Cpp.default.compilerPath": "",
+    "docwriter.style": "Auto-detect"
 }

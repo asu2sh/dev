@@ -1,3 +1,18 @@
+/**
+ * The function takes in a number n and an array of size n denoting the digits to be pressed. The
+ * function returns a vector of all the possible strings that can be produced by pressing these digits
+ * on the keypad
+ * 
+ * @param n Number of digits in the input number.
+ * @param arr An array of integers that represent the digits that need to be considered.
+ * @param keymap A vector of strings where each string represents a set of characters that can be
+ * produced by the corresponding digit on a phone keypad.
+ * @param ans vector of strings that will store the final answer
+ * @param str The string that is being formed at any step.
+ * @param index The index of the current element in the array arr.
+ * 
+ * @return A vector of strings.
+ */
 #include <iostream>
 #include <vector>
 #include <string>

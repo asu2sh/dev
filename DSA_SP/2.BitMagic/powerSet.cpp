@@ -1,3 +1,10 @@
+/**
+ * For each bit in the binary representation of the number from 0 to 2^n, print the character at the
+ * index of the bit if the bit is set
+ * 
+ * @param str The string whose power set is to be found.
+ * @param n length of the string
+ */
 #include <iostream>
 #include <cmath>
 
