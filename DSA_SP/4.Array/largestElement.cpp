@@ -13,6 +13,18 @@ void largestElement(int arr[], int n){
             idx = i;
         }
     }
+
+    // Corner case: if the max is in the first index itself then how will we find the 2nd max
+    if(max == arr[0]){
+        int max2 =0;
+        for(int i=1; i<n; ++i){
+            if(max2 < arr[i]){
+                max2 = arr[i];
+                idx2 = i;
+            }
+        }
+    }
+    
     std::cout << idx << " " << idx2;
 }
 
