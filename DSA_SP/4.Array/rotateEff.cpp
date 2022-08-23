@@ -26,8 +26,11 @@ int main(){
     std::cin >> n >> k;
     int arr[n];
 
+    while(k>n)
+        k = k-n;
+
     for(int i=0; i<n; i++)
-        std::cout << arr[i];
+        std::cin >> arr[i];
 
     leftRotate(arr, n, k);
 }
