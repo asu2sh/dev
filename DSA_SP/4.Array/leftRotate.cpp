@@ -1,9 +1,20 @@
 #include <iostream>
+#include <vector>
 
 void leftRotate(int arr[], int n, int k){
 
-    
+    while(k>n)
+        k = k-n;
 
+    std::vector<int> resArr;
+    for(int i=k; i<n; i++)
+        resArr.push_back(arr[i]);
+    
+    for(int i=0; i<k; i++)
+        resArr.push_back(arr[i]);
+
+    for(int i=0; i<n; ++i)
+        std::cout << resArr[i] << " ";
 }
 
 int main(){
