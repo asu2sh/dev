@@ -2,7 +2,7 @@
 
 void maxmDiff(int arr[], int n){
 
-    int res = 0;
+    int res = arr[1] - arr[0];
     int min = arr[0];
 
     for(int i=1; i<n; ++i){
