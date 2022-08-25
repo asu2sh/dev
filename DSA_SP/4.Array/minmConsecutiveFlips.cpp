@@ -8,11 +8,6 @@ void minmFlip(int arr[], int n){
     std::vector<int> idx;
     int flipCnt = 0;
 
-    if((n==2) && (same != arr[1])){
-        std::cout << "From 1 to 1";
-        return;
-    }
-
     for(int i=1; i<n; ++i){
 
         if(same != arr[i]){
