@@ -5,8 +5,8 @@
 void minmFlip(int arr[], int n){
 
     int same = arr[0];
-    std::vector<int> idx;
     int flipCnt = 0;
+    std::vector<int> idx;
 
     for(int i=1; i<n; ++i){
 
@@ -16,7 +16,6 @@ void minmFlip(int arr[], int n){
             idx.push_back(i);
         }
     }
-
     idx.push_back(n);
     
     for(int i=0; i<flipCnt; i=i+2)
