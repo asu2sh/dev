@@ -1,5 +1,21 @@
 #include <iostream>
 
+void reversedArray(int arr[], int n){
+
+    int low = 0;
+    int high = n-1;
+
+    while(low < high){
+        std::swap(arr[low], arr[high]);
+        low++;
+        high--;
+    }
+
+    for(int i=0; i<n; ++i)
+         std::cout << arr[i] << " ";
+}
+
+//? Little basic
 void reverseArray(int arr[], int n){
 
     for(int i=0; i<n/2; ++i){
@@ -14,22 +30,6 @@ void reverseArray(int arr[], int n){
         std::cout << arr[i] << " ";
 }
 
-//! Note:
-// void reverseArray(int arr[], int n){
-
-//     int low = 0;
-//     int high = n-1;
-
-//     while(low < high){
-//         std::swap(arr[low], arr[high]);
-//         low++;
-//         high--;
-//     }
-
-//     for(int i=0; i<n; ++i)
-//          std::cout << arr[i] << " ";
-// }
-
 int main(){
 
     int n;
@@ -40,4 +40,5 @@ int main(){
         std::cin >> arr[i];
 
     reverseArray(arr, n);
+    reversedArray(arr, n);
 }
