@@ -4,7 +4,8 @@
 int normalMaxSum(int arr[], int n){
 
     int max = arr[0];
-    int res = INT_MIN;
+    int res = arr[0];  
+    // res can't be INT_MIN as if only 1 element is present or arr[0] is the only +ve element in the array
 
     for(int i=1; i<n; ++i){
         max = std::max(max + arr[i], arr[i]);
