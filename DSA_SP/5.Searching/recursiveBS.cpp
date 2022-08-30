@@ -9,10 +9,10 @@ int recursiveBS(int arr[], int low, int high, int x){
 
     if(arr[mid]==x) return mid;
 
-    if(arr[mid]>x)
+    else if(arr[mid]>x)
         return recursiveBS(arr, low, mid-1, x);
     
-    if(arr[mid]<x)
+    else
         return recursiveBS(arr, mid+1, high, x);
 
 }
