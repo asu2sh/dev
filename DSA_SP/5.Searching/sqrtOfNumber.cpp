@@ -15,9 +15,10 @@ int sqrtof(int n){
         else if(mid*mid > n)
             high = mid - 1;
         
-        else
+        else{
             low = mid + 1;
             ans = mid;
+        }
     }
     return ans;
 }
