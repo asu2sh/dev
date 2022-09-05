@@ -7,7 +7,7 @@ void frequency(int arr[], int n){
     int max = arr[0];
     int cntMax = 1;
 
-    for(int i=1; i<=n; ++i){
+    for(int i=1; i<=n; ++i){    // <=n is important for counting the last/for going to else statement
 
         if(max == arr[i]){
             cntMax++;
