@@ -5,18 +5,17 @@
 void frequency(int arr[], int n){
 
     int max = arr[0];
-    int cntMax = 0;
+    int cntMax = 1;
 
-    for(int i=0; i<=n; ++i){
+    for(int i=1; i<=n; ++i){
 
-        if(max != arr[i]){
-            std::cout << max << " " << cntMax << std::endl;
-            cntMax = 0;
-        }
-
-        if(max <= arr[i]){
-            max = arr[i];
+        if(max == arr[i]){
             cntMax++;
+        }
+        else{
+            std::cout << max << " " << cntMax << std::endl;
+            cntMax = 1;
+            max = arr[i];
         }
     }
 }
