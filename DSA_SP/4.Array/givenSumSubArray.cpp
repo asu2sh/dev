@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 // Sliding Window Technique with Variable Size
 void isSubArr(int arr[], int n, int sum){
@@ -18,6 +19,27 @@ void isSubArr(int arr[], int n, int sum){
         }
     }
     std::cout << "NO";
+}
+
+//! Returns start and end indices of the subarray with given sum
+std::vector<int> subarraySum(int arr[], int n, long long s){
+
+    int currSum = 0;
+    int idx = 0;
+    
+    if(s == 0)
+        return {-1};
+
+    for(int i=0; i<n; ++i){
+        currSum += arr[i];
+        while(currSum > s){
+            currSum = currSum - arr[idx];
+            idx++;
+        }
+        if(currSum == s)
+            return {idx+1, i+1};
+    }
+    return {-1};
 }
 
 
