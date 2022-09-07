@@ -6,34 +6,25 @@ void mergeFunc(int arr1[], int arr2[], int n1, int n2){
     int i = 0, i1 = 0, i2 = 0;
 
     while(i1 < n1 && i2 < n2){
-        if(arr1[i1] <= arr2[i2]){
-            res[i] = arr1[i1];
-            i1++;
-            i++;
-        }
-        else{
+
+        if(arr1[i1] <= arr2[i2])
+            res[i++] = arr1[i1++];
+
+        else
             res[i] = arr2[i2];
-            i2++;
-            i++;
-        }
     }
 
-    while(i1 < n1){
-        res[i] = arr1[i1];
-        i++;
-        i1++;
-    }
-    
-    while(i2 < n2){
-        res[i] = arr2[i2];
-        i++;
-        i2++;
-    }
+    while(i1 < n1)
+        res[i++] = arr1[i1++];
+
+    while(i2 < n2)
+        res[i++] = arr2[i2++];
 
     for(int &x: res)
         std::cout << x << " ";
 }
 
+//! my mid fn implementation:
 void mergeFn(int arr[], int n, int low, int mid, int high){
 
     int left[mid-low+1];
