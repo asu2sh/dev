@@ -30,3 +30,4 @@ int main(){
     // std::cout << lastCard(num) << std::endl;
     lastCard(num);
 }
+
