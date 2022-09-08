@@ -2,7 +2,7 @@
 
 void unionOf(int arr1[], int arr2[], int n1, int n2){
 
-    int i=0, j=0;
+    int i = 0, j = 0;
 
     while(i < n1 && j < n2){
 
@@ -38,7 +38,7 @@ void unionOf(int arr1[], int arr2[], int n1, int n2){
     }
     
     while(j < n2){
-        if(j>0 && arr2[j] != arr2[j-1])
+        if(j > 0 && arr2[j] != arr2[j-1])
             std::cout << arr2[j] << " ";
         j++;
     }
