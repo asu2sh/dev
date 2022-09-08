@@ -22,7 +22,7 @@ int cntAndMerge(int arr[], int low, int mid, int high){
             i++;
         }
         else{
-            arr[k] = right[i];
+            arr[k] = right[j];
             j++;
             res = res + (n1 - i);
         }

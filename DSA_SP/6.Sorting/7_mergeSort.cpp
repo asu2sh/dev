@@ -29,7 +29,7 @@ void mergeFn(int arr[], int l, int m, int h){
         arr[k++] = left[i++];
 
     while(j < n2)
-        arr[k++]=right[j++];    
+        arr[k++] = right[j++];
 }
 
 
