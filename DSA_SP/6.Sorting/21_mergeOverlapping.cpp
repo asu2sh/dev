@@ -18,7 +18,7 @@ void mergeIntervals(Interval arr[], int n){
 
     for(int i=1; i<n; ++i){
 
-        if(arr[res].start <= arr[res].end){
+        if(arr[i].start <= arr[res].end){
 
             arr[res].start = std::min(arr[res].start, arr[i].start);
             arr[res].end = std::max(arr[res].end, arr[i].end);
