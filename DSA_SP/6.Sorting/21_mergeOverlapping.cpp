@@ -26,7 +26,9 @@ void mergeIntervals(Interval arr[], int n){
         else{
 
             res++;
-            arr[res] = arr[i];
+            // arr[res] = arr[i];
+            arr[res].start = arr[i].start;
+            arr[res].end = arr[i].end;
         }
     }
 
