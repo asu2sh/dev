@@ -20,35 +20,34 @@ bool checkEq(int arr[], int n)
 	return false;
 }
 
-// Time Complexity: O(n)    Auxiliary Space: O(c)
-int pSum[1000];
-
-void prefixSum(int arr[], int n){
-
-    pSum[0] = arr[0];
-    for(int i=1; i<n; ++i)
-        pSum[i] = pSum[i-1] + arr[i];
-}
-
-void hasEP(int pSum[], int n){
-
-    if( (pSum[n-1] - pSum[0]) == 0){
-        std::cout << "YES " << "0";
-        return;
-    }
-
-    if( (pSum[n-1] - pSum[n-2]) == 0){
-        std::cout << "YES " << n-1;
-        return;
-    }
+// Time Complexity: O(n)    Auxiliary Space: O(1)
+int equilibriumPoint(int a[], int n) {
     
-    for(int i=1; i<n; ++i){
-        if(pSum[i-1] == (pSum[n-1] - pSum[i])){
-            std::cout << "YES " << i ;
-            return;
+    if(n == 1)
+        return 1;
+        
+    int l = 0;
+    int r = n-1;
+            
+    int lsum = 0, rsum = 0;
+            
+    while(l < r){
+        
+        if(lsum + a[l] > rsum + a[r]){
+            rsum += a[r];
+            r--;
+        }
+            
+        else{
+            lsum += a[l];
+            l++;
         }
     }
-    std::cout << "NO";
+            
+    if(lsum == rsum)
+        return l;
+        
+    return -1;
 }
 
 int main(){
@@ -59,9 +58,6 @@ int main(){
 
     for(int i=0; i<n; ++i)
         std::cin >> arr[i];
-    
-    prefixSum(arr, n);
-    hasEP(pSum, n);
 
-    // std::cout << checkEq(arr, n);
+    std::cout << checkEq(arr, n) << " " << equilibriumPoint(arr, n);
 }
