@@ -7,11 +7,13 @@ void leftRotate(int arr[], int n, int k){
         k = k-n;
 
     std::vector<int> resArr;
-    for(int i=k; i<n; i++)
+
+    for(int i=k; i<n; i++)  // k to n
         resArr.push_back(arr[i]);
     
-    for(int i=0; i<k; i++)
+    for(int i=0; i<k; i++)  // 0 to k
         resArr.push_back(arr[i]);
+
 
     for(int i=0; i<n; ++i)
         std::cout << resArr[i] << " ";
