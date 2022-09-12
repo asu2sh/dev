@@ -11,7 +11,7 @@
  * 
  * @return The last person standing.
  */
-int josephus(std::vector<int> arr, int k, int index){
+int josephus(std::vector<int> &arr, int k, int index){
 
     if(arr.size()==1)
         return arr[0];
@@ -33,8 +33,9 @@ int main(){
         arr[i] = i;
 
     int index = 0;
-    int res = 0;
-    k--;
+    k--;    
+    //because counting starts from the person itself,
+    //like if k = 1, then the person having sword has kill itself.
 
     std::cout << josephus(arr, k, index);
 }
