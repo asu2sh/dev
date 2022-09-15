@@ -2,9 +2,6 @@
 
 void cycle(int arr[], int n){
 
-    if(arr[0] == arr[1])
-        std::swap(arr[0], arr[n-1]);
-
     int cnt = 0;
 
     for(int idx=0; idx<n; ++idx){
@@ -16,6 +13,14 @@ void cycle(int arr[], int n){
             if(arr[i] < item)
                 pos++;
         }
+        // If item is already in correct position
+        if(pos == idx)
+            continue;
+
+        // Ignore all duplicate elements
+        while(item == arr[pos])
+            pos++;
+
         std::swap(arr[pos], item);
 
         while(pos != idx){
