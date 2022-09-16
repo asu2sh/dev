@@ -1,3 +1,4 @@
+/*
 let js = 'amazing';
 // if (js === 'amazing') alert('JavaScript is FUN!');
 console.log(40+8+23-1)
@@ -113,7 +114,36 @@ if (ages >= legalAge){
 }else {
     console.log(`${legalAge - ages} years are left till you are legal to drive😊`);
 }
+*/
+console.log("------------- Day 2: JS ------------");
 
+const inputYear = "1999";
+console.log(inputYear + 22);
+
+console.log(Number(inputYear) + 22);
+console.log(typeof NaN);
+
+console.log(Boolean());
+
+const age = 18;
+
+if(age === 18)  console.log("strict");
+if(age == 18)   console.log("loose");
+
+if('18' === 18) console.log("===");
+if('18' == 18)  console.log("==");
+
+const favorite = prompt("Whats your favorite number?");
+console.log(favorite);
+
+console.log(typeof favorite);
+
+if(favorite === 23){
+    console.log("Jordan");
+}
+else{
+    console.log(13);
+}
 
 
 
