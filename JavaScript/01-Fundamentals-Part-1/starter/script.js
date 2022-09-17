@@ -115,35 +115,108 @@ if (ages >= legalAge){
     console.log(`${legalAge - ages} years are left till you are legal to drive😊`);
 }
 */
-console.log("------------- Day 2: JS ------------");
+//! Day2: JS -------------->
 
-const inputYear = "1999";
-console.log(inputYear + 22);
+// const inputYear = "1999";
+// console.log(inputYear + 22);
 
-console.log(Number(inputYear) + 22);
-console.log(typeof NaN);
+// console.log(Number(inputYear) + 22);
+// console.log(typeof NaN);
 
-console.log(Boolean());
+// console.log(Boolean());
 
-const age = 18;
+// const age = 18;
 
-if(age === 18)  console.log("strict");
-if(age == 18)   console.log("loose");
+// if(age === 18)  console.log("strict");
+// if(age == 18)   console.log("loose");
 
-if('18' === 18) console.log("===");
-if('18' == 18)  console.log("==");
+// if('18' === 18) console.log("===");
+// if('18' == 18)  console.log("==");
 
-const favorite = prompt("Whats your favorite number?");
-console.log(favorite);
+// const favorite = prompt("Whats your favorite number?");
+// console.log(favorite);
 
-console.log(typeof favorite);
+// console.log(typeof favorite);
 
-if(favorite === 23){
-    console.log("Jordan");
-}
-else{
-    console.log(13);
-}
+// if(favorite === 23){
+//     console.log("Jordan");
+// }
+// else{
+//     console.log(13);
+// }
+
+//! Day3: JS -------------->
+
+// const hasLicense = true;
+// const hasVision = false;
+
+// console.log(hasLicense && hasVision);
+
+// const dolphin = (97+112+81)/3;
+// const koala = (109+95+86)/3;
+
+// if(dolphin === koala)
+//     console.log("DRAW");
+// else if(dolphin > koala)
+//     console.log("Dolphin");
+// else
+//     console.log("Koala"); 
+
+// if(dolphin === koala){
+//     if(dolphin >= 100 && koala >= 100)
+//         console.log("DRAW");
+//     else
+//         console.log("NO ONE WINS");
+// }
+// else if(dolphin > koala && dolphin >= 100)
+//     console.log("Dolphin");
+// else if(koala >= 100)
+//     console.log("Koala"); 
+
+// const day = prompt("Enter the day");
+
+// switch(day){
+
+//     case "monday":
+//         console.log("Hi, monday");
+//         console.log("What's up");
+//         break;
+    
+//     case "tuesday":
+//         console.log("Hi, tuesday");
+//         break;
+//     case "friday":
+//     case "saturday":
+//     case "sunday":
+//         console.log("party");
+//         break;
+    
+//     default:
+//         console.log("Default");
+// }
+
+
+// const age = 18;
+
+// const drink = age >= 16 ? "yes" : "no";
+// console.log(drink);
+
+// const bill = 20;
+// let tip;
+// console.log(`Bill = ${bill}, Tip = ${tip = 50<=bill && bill<=300 ? bill*0.15 : bill*0.20}, Total = ${bill+tip}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
