@@ -57,7 +57,7 @@ btnHold.addEventListener("click", function () {
         document.getElementById(`score--${currPlayer}`).textContent =
             scores[currPlayer];
 
-        if (scores[currPlayer] < 20) {
+        if (scores[currPlayer] < 100) {
             switchPlayer();
         } else {
             document
