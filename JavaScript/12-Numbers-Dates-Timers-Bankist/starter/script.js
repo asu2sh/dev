@@ -251,3 +251,41 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
+
+console.log(23 === 23.0);
+
+console.log(0.2 + 0.1);
+
+console.log(Number.isFinite());
+
+console.log(Math.trunc('23.78988'));
+
+console.log(10n + 10n);
+
+console.log(new Date(0).toISOString());
+
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(+future);
+
+const daysPassed = (date1, date2) => (date2 - date1) / (1000 * 60 * 60 * 24);
+
+console.log(daysPassed(future, new Date(2037, 10, 25, 15, 23)))
+
+
+const num = 76543.21;
+
+console.log(new Intl.NumberFormat('ar-SY').format(num));
+
+//////////////////////////////////////////////////////////////////
+
+setTimeout(() => console.log('Here is Your Pizza'), 3000 );
+
+console.log('Waiting...')
+
+
+let v = 0;
+const vTimer = setInterval(() => {
+  console.log(++v);
+  if(v===5) clearInterval(vTimer);
+},1000);
+
