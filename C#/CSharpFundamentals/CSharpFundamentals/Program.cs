@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace CSharpFundamentals
 {
@@ -34,7 +35,7 @@ namespace CSharpFundamentals
             var firstName = "Ashutosh";
             var lastName = "Ray";
 
-            var myFullName = String.Format("My name is {0} {1}", firstName, lastName);
+            string myFullName = string.Format("My name is {0} {1}", firstName, lastName);
             var names = new String[3] { "John", "Jack", "Mary" };
             var formattedNames = String.Join(",", names);
             Console.WriteLine(formattedNames);
@@ -149,6 +150,64 @@ namespace CSharpFundamentals
             var duration = end - start;
 
             Console.WriteLine(duration);
+
+
+            var fullName = "Ashutosh Ray ";
+            Console.WriteLine("Trim: {0}", fullName.Trim());
+            Console.WriteLine("ToUpper: {0}", fullName.Trim().ToUpper());
+
+            var idx = fullName.IndexOf(' ');
+            Console.WriteLine(idx);
+
+            var FirstName = fullName.Substring(0, idx);
+            var LastName = fullName.Substring(idx + 1);
+
+            Console.WriteLine(idx + "\n" + FirstName + " \n" + LastName);
+
+            // Summarising Text
+            var sentence = "This is going to be a really really really really really long text.";
+            const int maxmLength = 5;
+
+            if (sentence.Length < maxmLength)
+                Console.WriteLine(sentence);
+            else
+            {
+                var words = sentence.Split(' ');
+                var totalCharacters = 0;
+                var summaryWOrds = new List<string>();
+
+                foreach(var word in words)
+                {
+                    totalCharacters += word.Length + 1;
+                    if(totalCharacters > maxmLength)
+                      break;
+                    summaryWOrds.Add(word);
+                }
+
+                var summary = String.Join(" ", summaryWOrds) + "...";
+                Console.WriteLine(summary);
+            }
+
+
+            var builder = new StringBuilder("Hi");
+
+            builder.Append('-', 5);
+            Console.WriteLine(builder);
+
+            builder.Insert(2, new string('e', 3));
+            Console.WriteLine(builder);
+
+            builder.Remove(5, 5);
+            Console.WriteLine(builder);
+
+            builder.Replace('e', 'i');
+            Console.WriteLine(builder);
+
+            builder.Clear();
+            Console.WriteLine(builder);
+
+
+
 
 
         }
