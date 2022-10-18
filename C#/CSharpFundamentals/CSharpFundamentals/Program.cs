@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace CSharpFundamentals
 {
@@ -207,8 +208,9 @@ namespace CSharpFundamentals
             Console.WriteLine(builder);
 
 
+            //Working With Files
 
-
+            File.Copy(@"c:\temp\myfile.jpg", @"d:\temp\myfile.jpg", true);
 
         }
 
