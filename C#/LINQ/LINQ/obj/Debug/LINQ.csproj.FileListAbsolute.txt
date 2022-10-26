@@ -1,0 +1,8 @@
+C:\Users\skull\dev\C#\LINQ\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\skull\dev\C#\LINQ\LINQ\bin\Debug\LINQ.exe
+C:\Users\skull\dev\C#\LINQ\LINQ\bin\Debug\LINQ.pdb
+C:\Users\skull\dev\C#\LINQ\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\skull\dev\C#\LINQ\LINQ\obj\Debug\LINQ.csproj.SuggestedBindingRedirects.cache
+C:\Users\skull\dev\C#\LINQ\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\skull\dev\C#\LINQ\LINQ\obj\Debug\LINQ.exe
+C:\Users\skull\dev\C#\LINQ\LINQ\obj\Debug\LINQ.pdb
