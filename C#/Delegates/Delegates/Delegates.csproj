@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
+    <Compile Include="BookRepository.cs" />
     <Compile Include="Photo.cs" />
     <Compile Include="PhotoFilters.cs" />
     <Compile Include="PhotoProcessor.cs" />
