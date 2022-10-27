@@ -1,0 +1,8 @@
+C:\Users\skull\dev\C#\Async\Async\bin\Debug\Async.exe.config
+C:\Users\skull\dev\C#\Async\Async\bin\Debug\Async.exe
+C:\Users\skull\dev\C#\Async\Async\bin\Debug\Async.pdb
+C:\Users\skull\dev\C#\Async\Async\obj\Debug\Async.csproj.AssemblyReference.cache
+C:\Users\skull\dev\C#\Async\Async\obj\Debug\Async.csproj.SuggestedBindingRedirects.cache
+C:\Users\skull\dev\C#\Async\Async\obj\Debug\Async.csproj.CoreCompileInputs.cache
+C:\Users\skull\dev\C#\Async\Async\obj\Debug\Async.exe
+C:\Users\skull\dev\C#\Async\Async\obj\Debug\Async.pdb

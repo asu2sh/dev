@@ -1,0 +1,8 @@
+C:\Users\skull\dev\C#\DesignPatterns\OCP\bin\Debug\OCP.exe.config
+C:\Users\skull\dev\C#\DesignPatterns\OCP\bin\Debug\OCP.exe
+C:\Users\skull\dev\C#\DesignPatterns\OCP\bin\Debug\OCP.pdb
+C:\Users\skull\dev\C#\DesignPatterns\OCP\obj\Debug\OCP.csproj.AssemblyReference.cache
+C:\Users\skull\dev\C#\DesignPatterns\OCP\obj\Debug\OCP.csproj.SuggestedBindingRedirects.cache
+C:\Users\skull\dev\C#\DesignPatterns\OCP\obj\Debug\OCP.csproj.CoreCompileInputs.cache
+C:\Users\skull\dev\C#\DesignPatterns\OCP\obj\Debug\OCP.exe
+C:\Users\skull\dev\C#\DesignPatterns\OCP\obj\Debug\OCP.pdb
