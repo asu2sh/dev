@@ -1,8 +1,0 @@
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.AssemblyReference.cache
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.SuggestedBindingRedirects.cache
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.CoreCompileInputs.cache
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
-C:\Users\skull\dev\C#\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb

@@ -1,4 +1,0 @@
-INFO: Migration started at {0}23-10-2022 22:13:08
-INFO: Migration finished at {0}23-10-2022 22:13:08
-INFO: Migration started at {0}24-10-2022 09:52:29
-INFO: Migration finished at {0}24-10-2022 09:52:29

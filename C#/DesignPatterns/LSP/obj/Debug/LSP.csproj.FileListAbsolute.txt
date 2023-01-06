@@ -1,8 +1,0 @@
-C:\Users\skull\dev\C#\DesignPatterns\LSP\bin\Debug\LSP.exe.config
-C:\Users\skull\dev\C#\DesignPatterns\LSP\bin\Debug\LSP.exe
-C:\Users\skull\dev\C#\DesignPatterns\LSP\bin\Debug\LSP.pdb
-C:\Users\skull\dev\C#\DesignPatterns\LSP\obj\Debug\LSP.csproj.AssemblyReference.cache
-C:\Users\skull\dev\C#\DesignPatterns\LSP\obj\Debug\LSP.csproj.SuggestedBindingRedirects.cache
-C:\Users\skull\dev\C#\DesignPatterns\LSP\obj\Debug\LSP.csproj.CoreCompileInputs.cache
-C:\Users\skull\dev\C#\DesignPatterns\LSP\obj\Debug\LSP.exe
-C:\Users\skull\dev\C#\DesignPatterns\LSP\obj\Debug\LSP.pdb
