@@ -26,7 +26,6 @@ print(anime + ' is a cool anime.')
 print(anime.upper())        # .upper()
 print(anime.islower())      # .islower()
 print(len(anime))           # len()
-print(anime[0])
 print(anime.index('S'))     # .index()
 print(anime.index('mon'))
 print(anime.replace('Slayer', 'God'))       # .replace()
@@ -71,6 +70,10 @@ print(friends)
 print(friends[1])
 print(friends[-2])      # -ve idx
 print(friends[1:])      # [2: ]
+
+
+
+
 
 
 
