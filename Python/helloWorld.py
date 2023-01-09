@@ -65,11 +65,33 @@ print(sqrt(36))     # sqrt()
 
 # list
 
-friends = ['Charli', 'Oruuu', 'Subhit']
+friends = ['Charli', 'Oruuu', 'Subhit', 'Hrithik', 'Rishav']
 print(friends)
 print(friends[1])
 print(friends[-2])      # -ve idx
 print(friends[1:])      # [2: ]
+print(friends[1:3])     # [1:3]
+# print(friends.clear())  # .clear()  # o/p: None
+print(friends.pop())    # .pop()
+print(friends.index('Hrithik'))      # .index()
+print(friends.count('Oruuu'))       # .count()
+friends.sort()      # .sort()
+print(friends)
+friends.reverse()   # .reverse()
+print(friends)
+friends2 = friends.copy()   # .copy()
+
+# tuples
+
+coordinates = (4, 5)
+print(coordinates[0])
+
+# function
+
+def say_hi(name):
+    print('Hello ' + name)
+
+say_hi("Asutosh ")
 
 
 
