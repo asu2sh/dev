@@ -203,8 +203,30 @@ print(student2.name)
 print(student1.good_gpa())
 print(student2.good_gpa())
 
+# inheritance
 
+class Chef:
+    def make_chicken(self):
+        print('Chef makes the chicken')
+    def make_salad(self):
+        print('Chef makes the salad')
+    def make_special_dish(self):
+        print('Chef makes chicken bbq')
 
+class ChineseChef(Chef):
+    def make_chinese(self):
+        print('Chef makes CHINESE')
+    def make_special_dish(self):
+        print('Chef makes paneer butter masala')
+
+myChef = Chef()
+urChef = ChineseChef()
+
+urChef.make_salad()
+myChef.make_salad()
+urChef.make_chinese()
+myChef.make_special_dish()
+urChef.make_special_dish()
 
 
 
