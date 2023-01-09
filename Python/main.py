@@ -228,6 +228,18 @@ urChef.make_chinese()
 myChef.make_special_dish()
 urChef.make_special_dish()
 
+# reading files
+
+# r -> read
+# w -> write
+# a -> append
+# r+ -> read & write
+
+employee_file = open('c:\Users\skull\dev\Python\employees.txt', 'r')
+print(employee_file.read())
+employee_file.close()
+
+
 
 
 
