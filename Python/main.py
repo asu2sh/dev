@@ -234,10 +234,14 @@ urChef.make_special_dish()
 # w -> write
 # a -> append
 # r+ -> read & write
+# a+ -> append & read
 
-employee_file = open('c:\Users\skull\dev\Python\employees.txt', 'r')
+employee_file = open(r'c:\Users\skull\dev\Python\employees.txt', 'r+')
+print(employee_file.readable())
 print(employee_file.read())
+# employee_file.write('Oruu - Civil')
 employee_file.close()
+
 
 
 
