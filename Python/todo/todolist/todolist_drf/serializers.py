@@ -2,7 +2,6 @@ from rest_framework import serializers
 from .models import UserModel, TodoModel
 
 
-
 class todoSerializer(serializers.ModelSerializer):
     class Meta:
         model = TodoModel
@@ -12,4 +11,4 @@ class todoSerializer(serializers.ModelSerializer):
 class userSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserModel
-        fields = '__all__'
+        fields = '__all__' 

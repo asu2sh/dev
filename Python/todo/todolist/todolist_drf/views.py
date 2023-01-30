@@ -5,8 +5,14 @@ from rest_framework.response import Response
 from .models import UserModel, TodoModel
 from .serializers import userSerializer, todoSerializer
 
+from rest_framework.permissions import IsAuthenticated
+from rest_framework_simplejwt.authentication import JWTAuthentication
+
 
 class getUserView(APIView):
+
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request):
         users = UserModel.objects.all()
@@ -15,13 +21,19 @@ class getUserView(APIView):
 
 class getSingleUserView(APIView):
 
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+
     def get(self, request, pk):
         user = UserModel.objects.get(id=pk)
         serializer = userSerializer(user, many=False)
         return Response(serializer.data)
 
 class postUserView(APIView):
-        
+
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    
     def post(self, request):
         serailizer = userSerializer(data=request.data)
 
@@ -31,6 +43,9 @@ class postUserView(APIView):
 
 class putUserView(APIView):
 
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    
     def put(self, request, pk):
         user = UserModel.objects.get(id=pk)
         serializer = userSerializer(instance=user, data=request.data)
@@ -41,6 +56,9 @@ class putUserView(APIView):
 
 class deleteUserView(APIView):
 
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
+    
     def delete(self, request, pk):
         user = UserModel.objects.get(id=pk)
         user.delete()
@@ -92,6 +110,9 @@ class deleteTodoView(APIView):
 
 
 class userTodoView(APIView):
+
+    authentication_classes = [JWTAuthentication]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, pk):
         todo = TodoModel.objects.filter(user=pk)
