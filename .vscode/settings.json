@@ -56,7 +56,6 @@
 
     "debug.internalConsoleOptions": "neverOpen",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
     "C_Cpp.default.compilerPath": "",
     "docwriter.style": "Auto-detect",
@@ -64,5 +63,5 @@
     "editor.tabSize": 4,
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
 }
