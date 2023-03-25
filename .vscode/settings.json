@@ -64,4 +64,7 @@
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
 }

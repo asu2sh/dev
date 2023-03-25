@@ -14,3 +14,8 @@ int main(){
 
     return 0;
 }
+
+// In C++:
+// Elements are stored in row major order.
+// Internal Curly Braces are optional.
+// Only the first dimension can be omitted when we initialize.
