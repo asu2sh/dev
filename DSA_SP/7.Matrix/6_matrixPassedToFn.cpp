@@ -16,3 +16,5 @@ int main(){
     int arr[R][C] = {1, 2, 3, 4, 5, 6};
     printfunc(arr);
 }
+
+// not a general purpose fn
