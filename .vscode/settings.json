@@ -66,5 +66,9 @@
     "prettier.tabWidth": 4,
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "autopep8"
 }
