@@ -1,10 +1,10 @@
 {
     "files.autoSave": "afterDelay",
     "editor.fontSize": 13,
-    "editor.fontFamily": "'Fira Code'",
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 12,
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
