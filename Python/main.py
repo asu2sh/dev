@@ -13,11 +13,6 @@ def outer_function():
 outer_function()
 print("Outside both function: ", num)
 
-# import mod
-from mod import add
-
-print(add.__name__)
-
 
 import random
 
@@ -127,25 +122,25 @@ del student_id[103]
 print(student_id.keys())
 
 # file i/o
-try:
-    # open
-    file1 = open("c:\dev\Python\\test.txt")
-    # read
-    content = file1.read()
-    print(content)
-finally:
-    # close
-    file1.close()
+# try:
+#     # open
+#     file1 = open("c:\dev\Python\\test.txt")
+#     # read
+#     content = file1.read()
+#     print(content)
+# finally:
+#     # close
+#     file1.close()
 
-# with...open
-with open('c:\dev\Python\\test.txt') as file2:
-    content = file2.read(5)
-    print(content)
-# using with...open we don't have to close the file
+# # with...open
+# with open('c:\dev\Python\\test.txt') as file2:
+#     content = file2.read(5)
+#     print(content)
+# # using with...open we don't have to close the file
 
-# write
-with open('c:\dev\Python\\test2.txt', 'w+') as file3:
-    file3.write('Hell world')
+# # write
+# with open('c:\dev\Python\\test2.txt', 'w+') as file3:
+#     file3.write('Hell world')
 
 import os
 # get cwd
