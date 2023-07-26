@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <a href="{% url 'agents:agent-create' %}"> Create Agent </a>
+    <hr/>
+    <h1> Agent List </h1>
+
+    {% for agent in object_list %}
+        <div class="agent">
+            <a href="{% url 'agents:agent-detail' agent.pk %}"> {{ agent.user.username }}</a>
+        </div>
+    {% endfor %}
+{% endblock content %}
+
+{% comment "object_list" %}
+object_list is the default context name for the queryset
+{% endcomment %}
+
+
+{% comment %} {% extends 'base.html' %}
+{% block content %}
+
+<h1> Here are our agents </h1>
+
+{% for agent in object_list %}
+    {{ agent.user.username }}
+{% endfor %}
+
+{% endblock content %} {% endcomment %}

@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>djCRM</title>
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        {% include 'styles.html' %}
+        {% block content %}
+        {% endblock content %}
+        {% include 'scripts.html' %}
+    </body>
+</html>

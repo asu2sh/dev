@@ -1,0 +1,33 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+h1{
+    color: blue;
+}
+
+#intro{
+    color: yellow;
+}
+
+#outro{
+    color: blue;
+}
+
+.para{
+    color: orange;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    border-style: solid;
+    border-color: red;
+    color: white;
+}
+
+a{
+    color: greenyellow;
+    background-color: purple;
+    text-decoration: none;
+}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <a href="/agents/"> Go Back </a>
+    <hr/>
+    <h1> Details of {{ agent.user.username }} </h1>
+    <p> The agent belongs to {{ agent.organisation }} organisation.</p>
+    <hr/>
+    <a href="/agents/{{ agent.id }}/update"> Update Agent </a>
+    <hr/>
+    <a href="/agents/{{ agent.id }}/delete"> Delete Agent </a>
+    <hr/>
+{% endblock content %}
