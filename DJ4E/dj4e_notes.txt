@@ -205,5 +205,48 @@
     : typical usage is to pass the contents of the page, as a string or bytestring, to the HttpResponse constructor.
 
 
+==> Django templates
+-> Templates in django is a convenient way to generate HTML dynamically.
+-> They contain static parts of the desired HTML output as well as some special syntax
+    describing how dynamic content will be inserted.
+-> Template Render process:
+    Render Data(context) + Template --> Render Engine --> Rendered Output
+->
+    {'dat': 'Fun'} + <h1>Hi!</h1> --> Render Engine --> <h1>Hi!</h1>
+                     <pre>                              <pre>
+                     {{ dat }}                          Fun
+                     </pre>                             </pre>
+-> Template Naming
+    favs/templates/favs/detail.html 
+    template names tends to be global inside a django project, that's why above convention is used
+
+
+==> Django Template Language(DTL)
+-> built-in backend for django's template system
+-> Template Tags/Code:
+    -> Substitution
+        {{ zap }}
+        {{ zap | safe }}
+    -> Calling Code
+        {% url 'cat-detail' cat.id %}
+        {% author.get_absolute_url %}
+    -> Logic
+        {% if zap > 100 %}
+        {% endif %}
+    -> Blocks
+        {% block content %}
+        {% endblock %}
+-> Anything in the {{}} is automatically escaped.
+-> 
+    context = {'outer': {'inner': 13}}
+    <p> My fav num is {{ outer.inner }} </p>
+->
+    x = ['lychee', 'guava']
+    context = {'type': 'fruits', 'fruits': x}
+    <p> Number of {{ type }} is {{ fruits | length }} </p>
+
+
+
+
 
 
