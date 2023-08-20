@@ -5,8 +5,8 @@ def power_set(s):
     for i in range(m):
         for j in range(n):
             if (i & (1 << j)) != 0:
-                print(s[j])
-        print('\n')
+                print(s[j], end='')
+        print('')
 
 
 s = input()
