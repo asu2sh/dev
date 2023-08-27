@@ -6,10 +6,11 @@ def permute(s, n, res, idx=0):
         if x not in res:    # to remove duplicates
             res.append(x)
         return
-    for i in range(n):
+    for i in range(idx, n):
         s[i], s[idx] = s[idx], s[i] # I
         permute(s, n, res, idx+1)
         s[i], s[idx] = s[idx], s[i] # II
+        print('1')
     return res
 
 
