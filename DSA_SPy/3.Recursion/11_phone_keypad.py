@@ -1,6 +1,6 @@
 # Approach 1
-def kphone(a, N, pad, res, s, i=0):
-    if i == N:
+def kphone(a, pad, res, s, i=0):
+    if i == len(a):
         res.append(''.join(s))
         return
     
@@ -9,7 +9,7 @@ def kphone(a, N, pad, res, s, i=0):
     
     for j in range(len(char)):
         s.append(char[j])
-        kphone(a, N, pad, res, s, i+1)
+        kphone(a, pad, res, s, i+1)
         s.pop()
 
 
@@ -41,7 +41,7 @@ keypad = {
 }
 
 res1 = []
-kphone(a, len(a), keypad, res1, [])
+kphone(a, keypad, res1, [])
 print(res1)
 
 res2 = []
