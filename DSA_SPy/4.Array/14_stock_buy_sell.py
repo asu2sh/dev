@@ -5,7 +5,7 @@ def max_profit(arr):
     for i in range(n-1):
         if arr[i] < arr[i+1]:
             res += (arr[i+1] - arr[i])
-        return res
+    return res
 
 
 # arr = list(map(int, input().split()))
