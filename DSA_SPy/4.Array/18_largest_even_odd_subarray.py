@@ -1,6 +1,7 @@
 # Maximum length Alternating Even-Odd Subarray
 
 def solve(arr, n):
+    
     pass
 
 
