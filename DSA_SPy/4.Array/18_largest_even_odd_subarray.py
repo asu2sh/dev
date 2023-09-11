@@ -7,4 +7,5 @@ def solve(arr, n):
 # arr = [7, 10, 13, 14]       # 4
 # arr = [10, 12, 8, 4]        # 1
 arr = [5, 10, 20, 6, 3, 8]    # 3
-print(solve(arr, len(arr)))
+n = len(arr)
+print(solve(arr, n))
