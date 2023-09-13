@@ -1,0 +1,58 @@
+=== jQuery
+
+
+=> Syntax:
+$(SELECTOR).ACTION(CALLBACK)
+
+=> Example:
+$("#btn").click(function(){
+    alert("Button Clicked")
+});
+
+
+=> 
+jQuery.noConflict();                    # to remove $'s name conflict
+jQuery(document).ready(function($){     # and here we are passing $ as an argument, so that $ can be used inside it
+    $("#btn").click(function(){
+        alert("Hello World!)
+    });
+});
+
+
+=> Selectors:   jQuery uses CSS syntax to select elements, with some own selectors.
+
+-> Element Selector
+--> "p", "div", "button" --> EMPTY
+
+-> Id Selector
+--> <button id="btn1">Submit</button> --> "#btn1" --> #
+
+-> Class Selector
+--> <button class="myclass">Submit</button> --> ".myclass" --> .
+
+-> Universal Selector
+--> *
+
+
+==> $.noConflict()  --> to remove naming conflicts
+$(document).ready(function(){   --> this line can be replaced by --> $(function(){
+    $("#btn1").click(function(){
+        console.log("Button Clicked!)
+    })
+})
+
+
+==> KeywordEvents
+-> keydown
+-> keypress
+-> keyup
+--> this is also the order of precendence of the keyboard KeywordEvents
+
+
+==> FormEvents
+->
+        $("#form1").submit(function(e){
+            console.log("Submitted!")
+            e.preventDefault()
+        })
+-> Since the default behavior of Submit button in a form is to reload the page, .preventDefault()
