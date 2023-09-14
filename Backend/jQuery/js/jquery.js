@@ -81,6 +81,7 @@ jQuery(document).ready(function($){
         $("#bullet").hide()
         $("#pop").hide()
         $("#gun").click(function(){
+            $("#bullet").css("left", "0")
             $("#pop").show()
             $("#pop").hide(20)
             $("#bullet").show(function(){
