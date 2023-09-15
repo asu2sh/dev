@@ -1,0 +1,55 @@
+=== Ajax (Asynchronous JavaScript and XML)
+
+
+-> Ajax is a web development Technique which helps to create highly responsive web applications.
+
+> HTML, CSS --> Presentation
+> JSON/XML/Text --> For Storing Data
+> XMLHttpRequest Object --> For action in the background
+> JavaScript --> Put everything together
+
+-> Ajax is used in webpages to be updated asynchronously by exchanging data with a web server behind the scenes.
+    This makes possible to update parts of a web page, without reloading the whole page.
+
+=> How Ajax works?
+-> Client sends a request, a JavaScript call goes to XMLHttpRequest Object
+-> HTTP request is sent to Server by XMLHttpRequest Object
+-> If needed, Server interacts with the DB using Server Side Language -> Data Recieved
+-> Server sends JSON/XML/Text data to the XMLHttpRequest Callback Function
+-> HTML, CSS data is displayed on the browser
+
+
+=> XMLHttpRequest (XHR)
+-> XMLHttpRequest is an API that can be used by JavaScript, and other web browser scripting languages
+    to transfer and manipulate data to and from a web server using HTTP, establishing an independent connection
+    channel between Client and Server.
+-> It is used for Asynchronous communication betwen client and server.
+> Synatx:
+    let xhr = new XMLHttpRequest();
+> Properties:
+-> onlyreadystatechange 
+    --> It defines a function to be called when the readystate property changes.
+    --> The onlyreadystatechange is called multiple times during an XHR request.
+        We explicitly ignore all the states other than readystate === 4, which means that the request is done.
+-> readystate
+    --> This property returns the state an XMLHttpRequest client is in.
+        An XHR client exists in one of the following states:    
+    ---> 0: UNSENT -> The XHR client has been created, but the open() method hasn't been called yet.
+    ---> 1: OPENED -> open() method has been invoked. During this state, the request headers can be set
+        using the setRequestHeader() method and the send() method can be called which will initiate the fetch.
+    ---> 2: HEADERS_RECEIVED -> send() has been called and the response headers have been recieved.
+    ---> 3: LOADING -> Response's body is being recieved. If responseType is "text" or empty sting,
+        the responseText will have the partial text response as it loads.
+    ---> 4: DONE -> The fetch operation is complete. This could mean that either the data transfer has been 
+        completed successfully or failed.
+-> responseType
+    --> It is an enumerated string value specifying the type of data contained in the response.
+    --> It also lets author change the response type.
+    --> "" -> An empty responseType string is treated as "text", the default type.
+    --> arraybuffer -> The response is a JS ArrayBuffer containing binary data.
+    --> blob -> The response is a Blob object containing the binary data.
+    --> document -> The response is an HTML/XML Document
+    --> json -> The object is a JS object created by parsing the contents of recieved data as JSON.
+    --> text -> The response is a text in a DOMString object.
+-> responseText
+    --> 
