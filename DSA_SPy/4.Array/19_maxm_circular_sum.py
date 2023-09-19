@@ -1,5 +1,4 @@
 def naive(arr, n):
-    
     pass
 
 
