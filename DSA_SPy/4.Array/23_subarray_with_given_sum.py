@@ -1,5 +1,5 @@
 def solve(arr, n, k):
-    pass
+    
 
 
 arr = [4, 8, 12, 5]
