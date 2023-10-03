@@ -52,4 +52,27 @@
     --> json -> The object is a JS object created by parsing the contents of recieved data as JSON.
     --> text -> The response is a text in a DOMString object.
 -> responseText
-    --> 
+    --> It returns the text recieved from a server following a request being sent.
+-> responseXML
+    --> It is read-only property returns a Document containing the HTML or XML retrieved by the request, or null if request was unsuccessful, has not yet been sent, or if the data can't be parsed as XML or HTML
+
+==> open(method, url, async, user, psw)
+- This method is used to initialize a newly-created request, or re-initialize an existing one
+- xhr.open("GET", 'data.txt', true);
+
+==> Make an HTTP Request
+-> Create XMLHttpRequest Object
+    const xhr = new XMLHttpRequest();
+-> Initialize created request
+    xhr.open("GET", "data.txt", true);
+-> Send the Request
+    xhr.send();
+--> If the method is POST
+        xhr.open("POST", "data.txt", true);
+        xhr.setRequestHeader('Content-Type','application/JSON')
+        xhr.send(body)
+
+==> Handling Server Response
+-> xhr.onlyreadystatechange = function(){
+    // Process the response here
+    }
